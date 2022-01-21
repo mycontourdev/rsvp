@@ -1,1 +1,6 @@
-/*  https://go.advisorlaunch.com/rsvp/:splat  200
+[[redirects]]
+  from = "https://www.coursersvp.me/ftx"
+  to = "https://go.advisorlaunch.com/rsvp/ftx"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
