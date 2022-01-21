@@ -13,9 +13,9 @@
         
         var mypath = window.location.pathname;
         var myframe = document.getElementById("myIframe");
-        myframe.src = "https://go.advisorlaunch.com/rsvp/"+mypath;
+        myframe.src = "https://go.advisorlaunch.com/rsvp/"+mypath.substring(1);
         
-        console.log("dodol "+myframe.src);
+        //console.log("Dev "+myframe.src);
     </script>
 </body>
 
